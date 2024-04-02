@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Cronômetro</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/95-1024.webp" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+
+  <body>
+    <main>
+      <div class="geral">
+        <div class="Numbers">
+          <p class="hora">00</p>
+          <p>:</p>
+          <p class="min">00</p>
+          <p>:</p>
+          <p class="seg">00</p>
+        </div>
+        <div class="Plays">
+          <p>
+            <span onclick="pausar()" class="material-symbols-outlined"
+              >pause_circle</span
+            >
+          </p>
+          <p>
+            <span onclick="play()" class="material-symbols-outlined"
+              >play_arrow</span
+            >
+          </p>
+          <p>
+            <span onclick="stop()" class="material-symbols-outlined"
+              >stop_circle</span
+            >
+          </p>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
